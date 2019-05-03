@@ -1,0 +1,23 @@
+#first-div {
+  height: 100px;
+  background-color: lightblue;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+#first-div__first {
+
+  background-color: darkorange;
+  width: 68%;
+}
+
+#first-div__second {
+
+  background-color: darksalmon;
+  width: 28%;
+}
+
+.h-80 {
+  height: 80%;
+}

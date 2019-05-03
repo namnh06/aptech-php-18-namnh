@@ -1,0 +1,37 @@
+.div-mot {
+  height: 50px;
+
+}
+
+.chu-nam-giua {
+  text-align: center;
+}
+
+.div-hai {
+  height: 200px;
+  background-color: blanchedalmond;
+  display: flex;
+  justify-content: space-between;
+}
+
+.div-hai-mot {
+  width: 40%;
+  height: 100%;
+  background-color: darkred;
+}
+
+.div-hai-hai {
+  width: 55%;
+  height: 100%;
+  background-color: darkcyan;
+}
+
+.div-ba {
+  height: 250px;
+  background-color: limegreen;
+}
+
+.div-bon {
+  height: 50px;
+  background-color: orchid;
+}
