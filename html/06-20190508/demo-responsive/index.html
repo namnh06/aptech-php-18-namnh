@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+    body {
+      background-color: salmon;
+    }
+
+    div {
+      height: 100px;
+    }
+
+    #parent-div {
+      display: flex;
+    }
+
+    #first-div {
+      background-color: aqua;
+      width: 33%;
+    }
+
+    #second-div {
+      background-color: red;
+      width: 33%;
+    }
+
+    #third-div {
+      background-color: purple;
+      width: 33%;
+    }
+
+    @media only screen and (max-width: 576px) {
+
+      /* chu y */
+      #parent-div {
+        display: block;
+      }
+
+      #first-div {
+        width: 100%;
+      }
+
+      #second-div {
+        width: 100%;
+      }
+
+      #third-div {
+        display: none;
+        /* chu y */
+        width: 100%;
+      }
+    }
+  </style>
+</head>
+
+
+<body>
+  <div id="parent-div">
+    <div id="first-div"></div>
+    <div id="second-div"></div>
+    <div id="third-div"></div>
+  </div>
+</body>
+
+</html>

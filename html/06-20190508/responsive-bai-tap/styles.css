@@ -1,0 +1,60 @@
+#first-div,
+#second-div,
+#third-div,
+#fourth-div {
+  width: 100%;
+  height: 100px;
+}
+
+#first-div {
+  background-color: greenyellow;
+}
+
+#second-div {
+  background-color: red;
+}
+
+#third-div {
+  background-color: yellow;
+}
+
+#fourth-div {
+  background-color: gray;
+}
+
+#parent-hai-div-dau {
+  display: flex;
+}
+
+@media only screen and (max-width: 992px) {
+
+
+
+  #first-div,
+  #second-div,
+  #third-div,
+  #fourth-div {
+    width: 50%;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  #parent-hai-div-dau {
+    display: block;
+  }
+
+  #first-div,
+  #second-div,
+  #third-div,
+  #fourth-div {
+    width: 100%;
+  }
+}
+
+@media only screen and (max-width: 576px) {
+
+
+  #fourth-div {
+    display: none;
+  }
+}
