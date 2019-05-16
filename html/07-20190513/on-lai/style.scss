@@ -1,0 +1,23 @@
+.First-Container {
+  background-color: purple;
+
+  &__Row {
+    background-color: yellow;
+
+    &__First-Div {
+      &--height {
+        height: 100px;
+      }
+
+      &--bg-green {
+        background-color: green;
+      }
+    }
+
+    &__Second-Div {
+      &--height {
+        height: 200px;
+      }
+    }
+  }
+}

@@ -1,0 +1,20 @@
+.First-Container {
+  background-color: purple;
+}
+
+.First-Container__Row {
+  background-color: yellow;
+}
+
+.First-Container__Row__First-Div--height {
+  height: 100px;
+}
+
+.First-Container__Row__First-Div--bg-green {
+  background-color: green;
+}
+
+.First-Container__Row__Second-Div--height {
+  height: 200px;
+}
+/*# sourceMappingURL=style.css.map */

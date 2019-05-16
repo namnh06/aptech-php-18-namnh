@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.css">
+  <style>
+    .height-100-px {
+      height: 100px !important;
+    }
+
+    .first-div,
+    .second-div,
+    .third-div {
+      height: 100px;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="container my-5 First-Container">
+    <div class="row First-Container__Row">
+      <div class="col-12 col-md-4 height-100-px bg-warning First-Container__Row__First-Div--height-100-px">1</div>
+      <div class="d-none d-md-block col-md-8 second-div bg-success First-Container__Row__Second-Div--heigh">2</div>
+    </div>
+  </div>
+  <ul class="d-flex list-unstyled">
+    <li class="mx-2">Home</li>
+    <li class="mx-2">Link</li>
+    <li>Disabled</li>
+  </ul>
+  <div class="container">
+    <div class="row">
+      <div class="col-12 third-div bg-info">3</div>
+    </div>
+  </div>
+
+  <div class="container">
+    <div class="row">
+      <div class="col-12 d-block d-md-flex justify-content-around ">
+        <div class="first-div col-12 col-md-3 h-100 bg-danger ">
+          4
+        </div>
+        <div class="first-div col-12 col-md-3 h-100 bg-success ">
+          5
+        </div>
+      </div>
+    </div>
+  </div>
+
+</body>
+
+</html>
