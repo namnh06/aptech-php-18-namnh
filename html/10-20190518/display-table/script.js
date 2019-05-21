@@ -1,3 +1,49 @@
+function create(nameOfElement) {
+  return document.createElement(nameOfElement);
+}
+
+var table = create('table');
+var thead = create('thead');
+table.appendChild(thead);
+
+var trow = create('tr');
+thead.appendChild(trow);
+
+var arrayTitle = ['ID', 'Name', 'Email', 'Password'];
+
+for (var i = 0; i < arrayTitle.length; i++) {
+  var th = create('th');
+  var thContent = document.createTextNode(arrayTitle[i]);
+  th.appendChild(thContent);
+  trow.appendChild(th);
+}
+
+// var th1 = create('th');
+// var th1Content = document.createTextNode('ID');
+// th1.appendChild(th1Content);
+// trow.appendChild(th1);
+
+// var th1 = create('th');
+// var th1Content = document.createTextNode('Name');
+// th1.appendChild(th1Content);
+// trow.appendChild(th1);
+
+
+// var th1 = create('th');
+// var th1Content = document.createTextNode('Email');
+// th1.appendChild(th1Content);
+// trow.appendChild(th1);
+
+
+
+
+var tbody = create('tbody');
+table.appendChild(tbody);
+document.body.appendChild(table);
+
+// https://namcoi.com/projects/users-crud-laravel/public/api/users
+
+
 var data = {
   "users": [{
       "id": 10,
@@ -25,3 +71,6 @@ var data = {
     }
   ]
 };
+
+
+console.log(data.users[0].id);
