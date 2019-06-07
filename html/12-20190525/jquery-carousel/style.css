@@ -1,0 +1,30 @@
+/* img {
+  width: 100%;
+  height: 200px;
+} */
+
+div {
+  width: 100%;
+  height: 200px;
+}
+
+#first {
+  background-image: url('./hinh-1.jpeg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+#second {
+  background-image: url('./hinh-2.jpeg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+#third {
+  background-image: url('./hinh-3.jpeg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}

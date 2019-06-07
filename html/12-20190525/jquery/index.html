@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+</head>
+
+<body>
+  <p>Hello World</p>
+  <h1 id="heading">PHP 18</h1>
+  <script>
+    $(document).ready(function () {
+      $("p").click(function () {
+        $(this).hide();
+      });
+      $("#heading").click(function () {
+        $(this).fadeOut();
+      })
+    });
+  </script>
+  <script>
+    function anH1Nay() {
+      document.getElementById('h1').style.display = 'none';
+    }
+  </script>
+</body>
+
+</html>
