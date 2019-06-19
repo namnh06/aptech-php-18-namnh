@@ -37,7 +37,7 @@ VALUES (1,1), (1,2),(2,1),(1,3),(2,2);
 
 SELECT * FROM category_post ORDER BY id;  
 
-SELECT A.id, A.post_id, A.category_id, B.title, C.name FROM 
+SELECT  FROM 
 category_post as A
 JOIN posts as B ON A.post_id = B.id
 JOIN categories as C ON A.category_id = C.id
