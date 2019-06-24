@@ -9,7 +9,9 @@
 </head>
 
 <body>
-
+  <?php
+  require('./welcome.php');
+  ?>
   <form action="sign-up.php" method="POST">
     <div>
       Name : <input type="text" name="name" placeholder="Name" required>
